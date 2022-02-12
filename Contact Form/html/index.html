@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Contact Me section Start -->
+    <div class="container">
+      <h2>Contact Form</h2>
+      <form name="contact-form">
+        <div class="input-box" >
+          <input type="text" name="name" placeholder="Enter your name" class = "input"
+          oninvalid="this.setCustomValidity('Please Enter valid name')"
+          oninput="setCustomValidity('')" required>
+        </div>
+        <div class="input-box">
+          <input type="email" name="email" placeholder="Enter your email" class = "input"
+          oninvalid="this.setCustomValidity('Please Enter valid email')"
+          oninput="setCustomValidity('')"required>
+        </div>
+        <div class="message-box" >
+          <textarea type="text" name="message" cols="30" rows="10" placeholder="Enter your message here" required></textarea>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit" class = "btn">
+        </div>
+      </form>
+    </div>
+  <script src="../js/script.js"></script>
+</body>
+</html>
