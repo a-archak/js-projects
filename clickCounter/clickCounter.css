@@ -1,0 +1,86 @@
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#Counter{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 25px;
+}
+
+#Count{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+ul{
+
+    display: inline-flex;
+    list-style: none;
+}
+
+ul #Increase{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+}
+
+ul #Decrease{
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+}
+
+ul #Reset{
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+}
+
+ul #Increase:hover{
+
+    transition-duration: 0.4s ;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+ul #Decrease:hover{
+
+    transition-duration: 0.4s ;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+ul #Reset:hover{
+
+    transition-duration: 0.4s ;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
